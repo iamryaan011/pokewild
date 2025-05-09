@@ -1,0 +1,17 @@
+.pokeball {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    top: 80%;
+    right: 2%;
+}
+
+.pokeball:hover {
+    cursor: pointer;
+}

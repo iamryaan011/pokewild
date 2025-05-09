@@ -1,0 +1,87 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  height: auto;
+  width: auto;
+
+  padding: 8px;
+
+  background: rgba(20, 20, 20, 0.8);
+
+  border-radius: 16px;
+  border: 2px solid #9c0000;
+
+  outline: 4px solid #ff00003d;
+
+  z-index: 1000;
+}
+
+.card button {
+  position: absolute;
+
+  right: 0.5%;
+  top: 1%;
+
+  background-color: transparent;
+  color: red;
+
+  width: 32px;
+  height: 32px;
+
+  border: none;
+}
+
+.card button:hover {
+  color: rgb(145, 0, 0);
+
+  cursor: pointer;
+}
+
+.card h1 {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+
+  font-variant: small-caps;
+
+  font-size: 18px;
+
+  margin: 1rem 0;
+}
+
+.pokemon {
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+}
+
+.pokemon div {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.pokemon div > h2 {
+  font-size: 14px;
+
+  position: relative;
+
+  top: 16px;
+  left: 28%;
+}

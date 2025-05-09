@@ -1,0 +1,62 @@
+.team {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+    background-color: #ff00003d;
+
+    border-radius: 12px;
+    border: 2px solid #9c0000;
+
+    outline: 4px solid #ff00003d;
+
+    padding: 2px;
+  
+    width: 56px;
+    height: 296px;
+
+    position: absolute;
+    left: 25.75%;
+    top: 112px;
+    transform: translateX(-50%); 
+}
+
+.team div {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #9b00003d;
+
+  padding: 8px;
+  margin: 4px;
+
+  border-radius: 12px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.team div:hover {
+    cursor: pointer;
+
+    background-color: #9b000057;
+}
+
+.shinysymbol {
+    position: relative;
+
+    right: -11px;
+    bottom: -32%;
+}
+
+@media (max-width: 735px) {
+    .team {
+        flex-direction: column;
+    }
+}

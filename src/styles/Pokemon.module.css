@@ -1,0 +1,89 @@
+.pokemon {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  top: 30px;
+}
+
+.pokemon span {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  font-variant: small-caps;
+  font-size: 16px;
+
+  color: #fff;
+  background-color: #0000003d;
+
+  border-radius: 6px;
+
+  padding: 4px;
+  margin: 2px 0;
+
+  width: auto;
+
+  text-align: center;
+}
+
+.pokemon span > img {
+  margin: 0 2px;
+}
+
+.pokemon span:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+
+  padding: 2px 4px;
+
+  background-color: transparent;
+}
+
+.pokemon img {
+  margin: 16px 0;
+
+  animation: girar360 1s linear;
+}
+
+/* campo dos types */
+
+.types {
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  font-variant: small-caps;
+}
+
+.types div {
+  border-radius: 6px;
+
+  padding: 4px;
+  margin: 2px 4px;
+
+  width: 80px;
+
+  text-align: center;
+
+  cursor: default;
+}
+
+@keyframes girar360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

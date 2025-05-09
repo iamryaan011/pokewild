@@ -1,0 +1,76 @@
+PROJETO POKEWILD
+
+floresta pokemon com um pokemon aleatório no meio dela {
+	type Pokemon: {
+		id: number
+		nome: string
+		sprite
+	}
+}
+
+uma pokebola centralizada na tela para você jogar {
+	throw: boolean
+	trade: string[] // vai escolher a pokebola
+};
+
+ao jogar a pokebola, vai aparecer um modal na tela
+dizendo se você capturou ou não;
+
+se tiver capturado e tiver menos que 6 pokemon, 
+ele vai para o seu time;
+
+//AQUI O CHAT DEU UMA MÃOZINHA
+
+🔧 1. Planeje os Estados Globais e Componentes
+Estados importantes:
+
+Pokémon atual na floresta (aleatório).
+
+Equipe do jogador (até 6).
+
+Pokébola selecionada.
+
+Resultado da captura (modal).
+
+Componentes principais:
+
+Floresta: cenário com o Pokémon exibido.
+
+Pokébola: botão central que pode ser clicado.
+
+Modal: aparece após jogar a pokébola, com o resultado.
+
+Time Display: mostra seu time
+
+🎯 2. Defina o Fluxo do Jogo
+Ao carregar a tela, um Pokémon aleatório aparece.
+
+Jogador escolhe uma pokébola e a arremessa.
+
+O jogo decide aleatoriamente se foi capturado.
+
+Se sim:
+
+Vai para o time (se tiver espaço).
+
+Um modal informa o resultado.
+
+Ao fechar o modal, aparece um novo Pokémon aleatório.
+
+🧠 3. Use React Context para Estados Globais
+Isso facilita compartilhar o time, PC e pokémons capturados entre componentes.
+
+Use useContext + useReducer ou useState.
+
+🎲 4. Lógica da Captura
+Baseie a captura em alguma chance (ex: 50%, ou baseada no tipo da pokébola).
+
+Faça com que o feedback seja visual (ex: tremor da pokébola, suspense, modal).
+
+🧪 5. Testes e Experiência do Usuário
+Garanta que o modal seja claro e bonito.
+
+Adicione efeitos (ex: som da pokébola, transições suaves).
+
+🌱 6. Extras que você pode adicionar depois
+Diferentes tipos de pokébolas com diferentes chances.

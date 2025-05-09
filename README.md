@@ -33,6 +33,24 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+##Sobre a aplicação
+
+Definir seu usuário 
+(sendo inserido no session storage);
+
+Gerar um pokémon aleatório
+(tendo chances de ser shiny);
+
+Gerar o cenário de acordo com o primeiro tipo 
+(se for água gera uma praia, se não uma floresta);
+
+Você ter 4 tipos de pokebolas e cada uma com uma chance de captura;
+
+Ao capturar, ele vai para o seu time que também é inserido no session storage, tendo um limite de 6 pokémon
+(se o próximo pokémon a ser capturado for o 7°, ele será libertado).
+
+Ter a possibilidade de ver todas as possibilidades de pokémon a serem gerados e suas versões na pokedex;
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

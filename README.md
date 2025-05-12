@@ -38,14 +38,14 @@ Pokedex listando todos os pokémon da região;
 A estrutura do projeto segue a convenção padrão do Next.js:
 
 pokewild/
-├── components/
-├── pages/
-├── public/
-├── styles/
-├── utils/
-├── .gitignore
-├── package.json
-└── README.md
+<br/>├── components/
+<br/>├── pages/
+<br/>├── public/
+<br/>├── styles/
+<br/>├── utils/
+<br/>├── .gitignore
+<br/>├── package.json
+<br/>└── README.md
 
 ## 📬 Contato
 Desenvolvido por Ryan Lima.

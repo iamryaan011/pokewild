@@ -42,7 +42,7 @@ pokewild/
 <br/>├── pages/
 <br/>├── public/
 <br/>├────── assets/
-<br/>├───────── images/
+<br/>├────────── images/
 <br/>├── styles/
 <br/>├── utils/
 <br/>├── .gitignore

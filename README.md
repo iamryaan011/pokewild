@@ -2,7 +2,7 @@
 Pokewild é uma aplicação web que consome a PokéAPI para exibir informações detalhadas sobre Pokémon. Desenvolvida com Next.js, oferece uma experiência interativa e responsiva para os fãs da franquia.
 
 ## 🚀 Demonstração
-Confira a aplicação ao vivo: <a href="pokewild.vercel.app">pokewild.vercel.app</a>
+Confira a aplicação ao vivo: <a href="https://pokewild.vercel.app/">pokewild.vercel.app</a>
 
 ## 🛠️ Tecnologias Utilizadas
 <br/>HTML;

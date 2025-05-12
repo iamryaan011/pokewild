@@ -43,7 +43,6 @@ pokewild/
 <br/>├────── assets/
 <br/>├────────── images/
 <br/>├── styles/
-<br/>├── utils/
 <br/>├── .gitignore
 <br/>├── package.json
 <br/>└── README.md
@@ -54,6 +53,6 @@ pokewild/
 <br/>Linkedin: linkedin.com/in/ryanlima011 
 
 ## API utilizada:
-PokeAPI: <a href="https://pokeapi.co">https://pokeapi.co"</a>
+PokeAPI: <a href="https://pokeapi.co">https://pokeapi.co/</a>
 
 

@@ -5,12 +5,12 @@ Pokewild é uma aplicação web que consome a PokéAPI para exibir informações
 Confira a aplicação ao vivo: pokewild.vercel.app
 
 ## 🛠️ Tecnologias Utilizadas
-Next.js
-
-React
-
-TypeScript
-
+HTML;
+CSS;
+React;
+Next.js;
+TypeScript;
+Session Storage;
 PokéAPI (https://pokeapi.co/)
 
 ## 📦 Instalação

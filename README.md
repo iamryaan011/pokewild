@@ -50,7 +50,7 @@ pokewild/
 ## 📬 Contato
 <br/>Desenvolvido por Ryan Lima.
 <br/>Email: iamryaan011@gmail.com 
-<br/>Linkedin: linkedin.com/in/ryanlima011 
+<br/>Linkedin: <a href="linkedin.com/in/ryanlima011">linkedin.com/in/ryanlima011 </a>
 
 ## API utilizada:
 PokeAPI: <a href="https://pokeapi.co">https://pokeapi.co/</a>

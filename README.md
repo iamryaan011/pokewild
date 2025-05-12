@@ -5,34 +5,34 @@ Pokewild é uma aplicação web que consome a PokéAPI para exibir informações
 Confira a aplicação ao vivo: pokewild.vercel.app
 
 ## 🛠️ Tecnologias Utilizadas
-HTML;
-CSS;
-React;
-Next.js;
-TypeScript;
-Session Storage;
-PokéAPI (https://pokeapi.co/)
+<br/>HTML;
+<br/>CSS;
+<br/>React;
+<br/>Next.js;
+<br/>TypeScript;
+<br/>Session Storage;
+<br/><a href="https://pokeapi.co">PokéAPI</a>
 
 ## 📦 Instalação
 Para rodar o projeto localmente:
 
-git clone https://github.com/iamryaan011/pokewild.git
-cd pokewild
-npm install
-npm run dev
+<br/>git clone https://github.com/iamryaan011/pokewild.git
+<br/>cd pokewild
+<br/>npm install
+<br/>npm run dev
 
 ## ✨ Funcionalidades
-Sistema de "login", iniciando apenas quando você digitar um username;
+<br/>Sistema de "login", iniciando apenas quando você digitar um username;
 
-Gera um pokémon aleatório na tela a cada refresh;
+<br/>Gera um pokémon aleatório na tela a cada refresh;
 
-Captura dos pokémon com diferentes tipos de pokebolas;
+<br/>Captura dos pokémon com diferentes tipos de pokebolas;
 
-Chance maior ou menor de acordo com a pokebola;
+<br/>Chance maior ou menor de acordo com a pokebola;
 
-Geração do seu time (6 pokémon máximos);
+<br/>Geração do seu time (6 pokémon máximos);
 
-Pokedex listando todos os pokémon da região;
+<br/>Pokedex listando todos os pokémon da região;
 
 ## 📁 Estrutura de Pastas
 A estrutura do projeto segue a convenção padrão do Next.js:
@@ -50,11 +50,11 @@ pokewild/
 <br/>└── README.md
 
 ## 📬 Contato
-Desenvolvido por Ryan Lima.
+<br/>Desenvolvido por Ryan Lima.
 
-Email: iamryaan011@gmail.com
+<br/>Email: iamryaan011@gmail.com
 
-LinkedIn: linkedin.com/in/ryanlima011
+<br/>LinkedIn: linkedin.com/in/ryanlima011
 
 Instagram: @iamryaan011
 
